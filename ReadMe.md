@@ -38,8 +38,9 @@ It includes **data cleaning, SQL exploration, Python EDA, and an interactive Pow
 ├── notebooks/   → Python cleaning & EDA notebooks  
 ├── sql/         → SQL exploration queries  
 ├── powerbi/     → PBIX dashboard file  
-├── images/      → Dashboard screenshots  
+├── images/      → Dashboard screenshots
 └── README.md
 
 ## 🔹 Author
 Suriya Prakash  
+
