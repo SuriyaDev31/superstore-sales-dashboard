@@ -392,19 +392,19 @@ An interactive dashboard was designed in Power BI to visually present all KPIs a
 
 1️⃣ Overview Dashboard
 
-images/dashboard_overview.png
+images/dashboard_overview.png.png
 
 Displays overall performance metrics — total sales, profit, orders, and category trends.
 
 2️⃣ Customer & Product Insights
 
-images/dashboard_customer_product.png
+images/dashboard_customer_product.png.png
 
 Highlights top-performing customers, product categories, and profit margins.
 
 3️⃣ Geographic Insights
 
-images/dashboard_geographic.png
+images/dashboard_geographic.png.png
 
 Provides regional and state-level sales analysis across the United States.
 
@@ -743,4 +743,5 @@ This project encapsulates a complete business analytics workflow, integrating mu
 ✔️ GitHub repository
 
 ✔️ README.md file
+
 
