@@ -3,6 +3,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python) ![SQL](https://img.shields.io/badge/SQL-MySQL-orange?logo=mysql) ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+![Dashboard Overview](dashboard_overview.png)
 
 ## 🗂️ Table of Contents
 
