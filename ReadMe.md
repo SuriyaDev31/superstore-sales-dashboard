@@ -3,7 +3,14 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python) ![SQL](https://img.shields.io/badge/SQL-MySQL-orange?logo=mysql) ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+### Dashboard Overview
 ![Dashboard Overview](images/dashboard_overview.png.png)
+
+### Customer & Product Analysis
+![Customer Product](images/dashboard_customer_product.png.png)
+
+### Geographic Analysis
+![Geographic Dashboard](images/dashboard_geographic.png.png)
 
 ## 🗂️ Table of Contents
 
