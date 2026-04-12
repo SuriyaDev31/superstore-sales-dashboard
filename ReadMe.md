@@ -1,6 +1,5 @@
 # 🏪 Superstore Sales Performance Analysis Dashboard
 
-
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python) ![SQL](https://img.shields.io/badge/SQL-MySQL-orange?logo=mysql) ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## 📊 Dashboard Preview
@@ -29,7 +28,6 @@
     ├── 💻 Installation Instructions
     ├── 📂 Folder Structure & Code Organization & Implementation
     ├── ▶️ Usage / How to Run
-    └── 🌐 Live Demo / Deployment Link
 
 6.🧩 Dataset Information (Data Source, Data Details & Data Dictionary)
 
@@ -123,6 +121,7 @@ This project is designed to support business stakeholders (Sales, Marketing, Ope
 ## Step 4.🧾 Project Overview 
 
 This project presents a complete end-to-end Sales Performance Analysis using the popular Sample Superstore dataset (2014–2017).
+
 It showcases the full lifecycle of a real-world data analytics project — from data cleaning to exploration to visual storytelling through dashboards.
 
 The analysis is performed using:
@@ -182,42 +181,42 @@ This dashboard provides a data-driven view to support strategic decision-making 
            ├── 💻 Installation Instructions
            ├── 📂 Folder Structure & Code Organization & Implementation
            ├── ▶️ Usage / How to Run
-           └── 🌐 Live Demo / Deployment Link
-
+           
 ### 🏗️ Project Setup
 
 Clone the repository to your local machine:
 
-git clone https://github.com/<your-username>/superstore-sales-dashboard.git
+* git clone https://github.com/<your-username>/superstore-sales-dashboard.git
 
-cd superstore-sales-dashboard
+* cd superstore-sales-dashboard
 
 ### 💻 Installation Instructions
 
-### To set up and run the project locally:
+#### To set up and run the project locally:
 
-### 1. Clone the repository:
+1.Clone the repository:
 
-git clone https://github.com/<your-username>/sales_dashboard_superstore.git
-cd sales_dashboard_superstore
+* git clone https://github.com/<your-username>/sales_dashboard_superstore.git
 
-### 2. Create and activate a virtual environment (recommended but optional):
+* cd sales_dashboard_superstore
 
-python -m venv .venv
+2.Create and activate a virtual environment (recommended but optional):
 
-### Windows
+* python -m venv .venv
 
-.\.venv\Scripts\activate
+Windows
 
-### macOS / Linux
+* .\.venv\Scripts\activate
 
-source .venv/bin/activate
+macOS / Linux
 
-### 3. Install Python dependencies:
+* source .venv/bin/activate
 
-pip install -r requirements.txt
+3.Install Python dependencies:
 
-### 4. Ensure you have the required tools installed:
+* pip install -r requirements.txt
+
+4.Ensure you have the required tools installed:
 
 * Python 3.8+
 
@@ -229,7 +228,7 @@ pip install -r requirements.txt
 
 ### 📂 Folder Structure & Code Organization & Implementation
 
-### 🗂 Folder Structure
+#### 🗂 Folder Structure
 
     sales_dashboard_superstore/
     ├── data/        → Raw and cleaned CSV files  
@@ -237,9 +236,10 @@ pip install -r requirements.txt
     ├── sql/         → SQL exploration queries  
     ├── powerbi/     → PBIX dashboard file  
     ├── images/      → Dashboard screenshots  
-    └── README.md
-  
-### 🗂 Organize Folder Structure
+    |── README.md
+    └── requirements.txt
+
+#### 🗂 Organize Folder Structure
 
     sales_dashboard_superstore/
     ├── data/
@@ -263,26 +263,26 @@ pip install -r requirements.txt
     │   ├── dashboard_customer_product.png
     │   └── dashboard_geographic.png
     │
-    └── README.md
+    ├── README.md
+    └── requirements.txt
  
 ### ▶️ Usage / How to Run
 
-### 1.Start Jupyter Notebook:
+#### 1.Start Jupyter Notebook:
 
 jupyter notebook
 
 Once Jupyter opens in your browser, navigate to the notebooks/ folder and run the notebooks in the following order:
 
-1.Data Cleaning
+* 1.Data Cleaning
 
-notebooks/01_data_cleaning.ipynb
+    * notebooks/01_data_cleaning.ipynb
 
-2.Exploratory Data Analysis (EDA)
+* 2.Exploratory Data Analysis (EDA)
 
-notebooks/02_eda_superstore.ipynb
+    * notebooks/02_eda_superstore.ipynb
 
-
-### 2. SQL Analysis (Optional but recommended):
+#### 2. SQL Analysis (Optional but recommended):
 
 * Open MySQL Workbench.
 
@@ -292,7 +292,7 @@ notebooks/02_eda_superstore.ipynb
 
     * sql/01_data_exploration.sql
 
-### 3. Open the Power BI Dashboard:
+#### 3. Open the Power BI Dashboard:
 
 * Open Power BI Desktop.
 
@@ -300,7 +300,7 @@ notebooks/02_eda_superstore.ipynb
 
     * powerbi/Superstore_Sales_Dashboard.pbix
 
-### 4. View Dashboard Screenshots (if not using Power BI):
+#### 4. View Dashboard Screenshots (if not using Power BI):
 
 * Go to:
 
@@ -310,17 +310,11 @@ notebooks/02_eda_superstore.ipynb
 
     * images/dashboard_geographic.png
 
-
-### 🌐 Live Demo / Deployment Link
-
-(Optional — add Power BI service link if published)
-https://app.powerbi.com/...
-
-
-
 ## Step 6.🧩 Dataset Information (Data Source, Data Details & Data Dictionary)
 
-* Dataset Source: Superstore Dataset by Vivek468 on Kaggle
+* Dataset Source: Superstore Dataset by Vivek468 on Kaggle 
+
+* Dataset Link : https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data
 
 * Format: CSV
 
@@ -411,45 +405,57 @@ This project follows a structured data analysis workflow, using the right tools 
 
 #### 🧹 Data Cleaning & Inspection
 
-##### Python (Pandas, NumPy)
+Python (Pandas, NumPy)
+
 * Handled missing values and inconsistent data
 * Cleaned column formats and data types
 
-##### Excel
+Excel
+
 * Performed quick validation and initial inspection
 
 #### 🔍 Exploratory Data Analysis (EDA)
 
-##### Python (Matplotlib, Seaborn)
+Python (Matplotlib, Seaborn)
+
 * Analyzed trends and patterns
 * Visualized distributions and correlations
 * Identified outliers and data anomalies
 
 #### 🗃 Database & SQL Analysis
-##### MySQL
+
+MySQL
+
 * Executed aggregation and filtering queries
 * Extracted key business metrics
 * Answered analytical business questions
 
 #### 📊 Dashboard Development
-##### Power BI
+
+Power BI
+
 * Designed interactive dashboards
 * Built visual storytelling for insights
 * Enabled dynamic filtering and drill-downs
 
 #### 📈 KPI & Metrics Calculation
-##### DAX (Power BI)
+
+DAX (Power BI)
+
 * Created calculated measures (Sales, Profit, YoY Growth)
 * Developed business KPIs for decision-making
 
 #### 📝 Documentation & Version Control
-##### Markdown (README.md)
+
+Markdown (README.md)
+
 * Documented project workflow and findings
 
-##### GitHub
-* Managed version control
-* Showcased project portfolio
+GitHub
 
+* Managed version control
+
+* Showcased project portfolio
 
 ### 📌 Final Consolidated Tool List
 
@@ -564,37 +570,41 @@ Provides regional and state-level sales analysis across the United States.
 
 * Monthly trend indicates steady growth across the years.
 
-### 🌎 Regional Performance
+#### 🌎 Regional Performance
+
 * West region contributes the highest sales, but also has higher discount-related losses.
 
 * Central region has a better profit margin despite lower overall sales.
 
 * East region also performs strongly in revenue.
 
-### 🏷️ Category & Sub-Category Analysis
+#### 🏷️ Category & Sub-Category Analysis
+
 * Technology category generates the highest profit.
 
 * Office Supplies drives the highest number of orders, but with lower profit per order.
 
 * Furniture sub-categories like Tables and Bookcases often result in negative profit, especially under heavy discounts.
 
-### 📦 Product-Level Insights
+#### 📦 Product-Level Insights
+
 * Top 10 products contribute a significant portion of total revenue.
 
 * Several low-selling items have stable profit margins — good for long-term retention.
 
-### 💰 Discount Impact
+#### 💰 Discount Impact
+
 * Higher discount levels are directly associated with reduced profitability.
 
 * Scatter plots show clusters of high discount + negative profit cases, especially in Furniture.
 
-### 👥 Customer Insights
+#### 👥 Customer Insights
 
 * A small percentage of customers contribute majority of total revenue (Pareto pattern).
 
 * Opportunity to develop loyalty programs for top-performing customers.
 
-🧠 Business Takeaways  
+### 🧠 Business Takeaways     
 
 * Sales analysis shows a clear spike in revenue during Q4 every year. The company should plan inventory, staffing, and marketing campaigns in advance to fully capitalize on this seasonal demand.
 
@@ -698,14 +708,13 @@ This project includes the following deliverables as part of the complete end-to-
 
 * 02_eda_superstore.ipynb — Exploratory Data Analysis (EDA), visual insights, trends & distributions
 
-
 ### 🗄 SQL Scripts
+
 * 01_data_exploration.sql — SQL queries for sales trends, customer insights, profitability, and regional analysis
 
-
 ### 📊 Power BI Dashboard
-* Superstore_Sales_Dashboard.pbix — Fully interactive 3-page dashboard (Overview, Customer/Product Insights, Geographic Insights)
 
+* Superstore_Sales_Dashboard.pbix — Fully interactive 3-page dashboard (Overview, Customer/Product Insights, Geographic Insights)
 
 ### 🖼 Dashboard Preview Images
 
@@ -716,6 +725,7 @@ This project includes the following deliverables as part of the complete end-to-
 * images/dashboard_geographic.png
 
 ### 📘 Documentation
+
 * README.md — Complete project documentation
 
 * LICENSE — MIT License (or chosen license type)
@@ -724,7 +734,7 @@ This project includes the following deliverables as part of the complete end-to-
 
 * .gitignore — Ignore unnecessary project files
 
-Step 17.🗄️ Business Impact:
+## Step 17.🗄️ Business Impact:
 
 * If deployed in a real retail or e-commerce environment, this analysis could help:
 Increase profit margins by identifying where heavy discounts are destroying profit.
@@ -748,7 +758,6 @@ Increase profit margins by identifying where heavy discounts are destroying prof
 * Handled missing values, corrected data types, validated fields
 
 * Used Pandas & NumPy for preprocessing
-
 
 ### 🔍 Exploratory Data Analysis (EDA)
 
@@ -794,15 +803,11 @@ Increase profit margins by identifying where heavy discounts are destroying prof
 
 ## Steps 19.📚 References & Resources
 
-Kaggle Superstore Dataset
-
-Power BI Documentation
-
-Pandas Documentation
-
-Matplotlib Documentation
-
-MySQL Documentation
+- [Kaggle Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data)  
+- [Power BI Documentation](https://learn.microsoft.com/power-bi/)  
+- [Pandas Documentation](https://pandas.pydata.org/docs/)  
+- [Matplotlib Documentation](https://matplotlib.org/stable/)  
+- [MySQL Documentation](https://dev.mysql.com/doc/)  
 
 ## Steps 20.👨‍💻 Authors / Contributors
 
